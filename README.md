@@ -10,9 +10,9 @@ Python installed
 2. Run script<br />  
 
 ```
-    2.1 python3 JSONParser.py "input json file"
+    python3 JSONParser.py "input json file"
 ```
-    4.2 python3 JSONParser.py "input json file" "output json file"
+    python3 JSONParser.py "input json file" "output json file"
 ```
-    6.3 python3 JSONParser.py
+    python3 JSONParser.py
 
