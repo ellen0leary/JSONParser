@@ -11,10 +11,8 @@ Python installed
 
 ```
     2.1 python3 JSONParser.py "input json file"
-```<br /> 
 ```
     4.2 python3 JSONParser.py "input json file" "output json file"
-```<br /> 
 ```
     6.3 python3 JSONParser.py
-```  <br /> 
+
