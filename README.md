@@ -12,12 +12,12 @@ You will need Python installed. I used python3 with this project.
 For this script you can specify the either the input json file or the output json file as well. You can also leave the arguments blank and teh file will you the input file supplied in the repository.
 Here are the example 
 ```
-python3 JSONParser.py "input json file"
-python3 JSONParser.py "input json file" "output json file"
+python3 JSONParser.py "input_json_file"
+python3 JSONParser.py "input_json _file" "output_json_file"
 python3 JSONParser.py
 ```
 #### Description
-This project deconstructs a json that is supplied to the programme. I will break down any array that the json contains and write it to a file with the array key and inner array key deconstructed. For example, this is the input2.json file:
+This project deconstructs a json that is supplied to the program. It will break down any array that the json contains and write it to a file with the array key and inner array key deconstructed. For example, this is the input2.json file:
 
 ```
 {
@@ -35,7 +35,7 @@ This project deconstructs a json that is supplied to the programme. I will break
 }
 ```
 
-Once this is run through the program we can see the arrays hae been deconscructed. We can also see this in output2.json
+Once this file is run through the program we can see the arrays hae been deconstructed. We can also see this in output2.json
 
 ```
 {
@@ -48,3 +48,4 @@ Once this is run through the program we can see the arrays hae been deconscructe
      "g.i": 7
 }
 ```
+The programm  will also print the contents of the output file to the console
