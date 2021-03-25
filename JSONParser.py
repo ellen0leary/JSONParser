@@ -8,9 +8,10 @@ def main(data,val =""):
         start = val+'.'
     for i in data :
         if(isinstance(data[i], dict )):
-            main(data[i],i )
+            main(data[i],start+i )
         else:
             newJson[start+i] = data[i]
+    return newJson
 
 file = ""
 #opens the file
